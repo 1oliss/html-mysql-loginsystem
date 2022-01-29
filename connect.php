@@ -20,7 +20,7 @@ if (!empty($username) {
         else{
             $sql = "INSERT INTO form (username, password) values ('$username', '$password')"
             if ($conn >query($sql)) {
-                echo "Właśnie się zalogowałeś!"
+                echo "Właśnie się zalogowałeś!" // case #1
             }
             else {
                 echo "Error: ". $sql . "<br>". $conn->error;
@@ -29,11 +29,11 @@ if (!empty($username) {
         }
     }
     else {
-        echo "Haslo nie powinno byc puste";
+        echo "Haslo nie powinno byc puste"; // case #2
         die();
     }
 }
 else {
-    echo "nazwa nie powinna byc pusta"
+    echo "nazwa nie powinna byc pusta" // case #3
 }
 ?>
