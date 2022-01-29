@@ -1,0 +1,5 @@
+- W pliku PHP znajdziesz case
+| case #1 - odpowiada za akcje która się dzieje po dobrym wypełnieniu 2 inputów
+| case #2 - odpowiada za akcje gdy input password jest pusty
+| case #3 - odpowiada za akcje gdy input username jest pusty
+- każdy case możesz zmienić na swoje potrzeby, domyślnie jest to po prostu echo :)
